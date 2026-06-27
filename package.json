@@ -18,20 +18,20 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/cgallic/n8n-nodes-kaicalls.git"
+		"url": "git+https://github.com/KaiCalls/n8n-nodes-kaicalls.git"
 	},
 	"bugs": {
-		"url": "https://github.com/cgallic/n8n-nodes-kaicalls/issues"
+		"url": "https://github.com/KaiCalls/n8n-nodes-kaicalls/issues"
 	},
 	"main": "index.js",
 	"scripts": {
-		"build": "n8n-node build",
+		"build": "tsc --project tsconfig.json && node scripts/copy-assets.mjs",
 		"build:watch": "tsc --watch",
 		"dev": "n8n-node dev",
 		"lint": "n8n-node lint",
 		"lint:fix": "n8n-node lint --fix",
 		"release": "n8n-node release",
-		"prepublishOnly": "n8n-node prerelease"
+		"prepublishOnly": "npm run build"
 	},
 	"files": [
 		"dist"
