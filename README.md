@@ -12,7 +12,7 @@ Use this package when you want n8n workflows to react to KaiCalls events or crea
 
 **What can it automate?** It can trigger workflows when new leads are created or calls complete, and it can create KaiCalls leads from upstream systems.
 
-**Is this the WordPress plugin?** No. The [KaiCalls WordPress plugin](https://github.com/KaiCalls/kaicalls-wordpress) is for WordPress lead capture. This package is for n8n workflow automation.
+**Is this the WordPress plugin?** No. The approved [KaiCalls AI Intake plugin](https://wordpress.org/plugins/kaicalls-ai-intake/) is for WordPress lead capture. This package is for n8n workflow automation.
 
 **Is this the MCP connector?** No. The [KaiCalls MCP connector](https://github.com/KaiCalls/kaicalls-mcp) is for AI agents and MCP clients. This package is for n8n.
 
