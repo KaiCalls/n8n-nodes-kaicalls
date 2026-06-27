@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.tsbuildinfo
+credentials/**/*.js
+nodes/**/*.js
+.npmrc
+.env
+.env.*
+!.env.example
